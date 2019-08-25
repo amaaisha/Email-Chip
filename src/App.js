@@ -59,11 +59,11 @@ class App extends React.Component {
 
 
   isInList(email) {
-    return this.state.items.includes(email);
+    return this.state.emails.includes(email);
   }
 
   isEmail(email) {
-    return /[\w\d\.-]+@[\w\d\.-]+\.[\w\d\.-]+/.test(email);
+    return/[\w\d\.-]+@[\w\d\.-]+\.[\w\d\.-]+/.test(email);
   }
 
 
